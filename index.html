@@ -9,10 +9,11 @@
     <button type="button" id="draw">画图</button>
     <button type="button" id="animate">粒子动画</button>
     <button type="button" id="clear">清空画布</button>
-    <script type="text/javascript" src="./partimation.js"></script>
+    <script type="text/javascript" src="./dist/index.min.js"></script>
     <script type="text/javascript">
       window.onload = function () {
         var particle = new Partimate('#myCanvas')
+        console.log(particle)
         var canvas = document.querySelector('#myCanvas')
         document.querySelector('#draw').onclick = function () {
           particle.draw().then(function () {
