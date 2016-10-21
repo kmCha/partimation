@@ -1,16 +1,16 @@
 {
   "name": "canvas-particle-animation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "export NODE_ENV=development && webpack-dev-server",
+    "build": "export NODE_ENV=production && webpack"
   },
-  "author": "",
+  "author": "MAJIUXI CHA",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.14.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.17.0",

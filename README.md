@@ -7,15 +7,21 @@
 [在线demo](http://www.kmhaoshuai.com/demos/partimation/)
 
 # 本地demo
+
 ```bash
 clone git@github.com:kmCha/partimation.git
 cd partimation
-node index.js
+npm run dev
 ```
+
+# 安装
+
+1. `npm install --save partimation`
+2. `<script src="http://www.kmhaoshuai.com/public/partimation.js"></script>`
 
 # 使用方法
 
-1. 通过在html中引入partimation.js
+1. 通过在html中引入partimation.js之后
 ```js
 typeof window.Partimate === 'function'
 ```
